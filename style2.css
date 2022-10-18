@@ -1,0 +1,127 @@
+*, html, body{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    background-color: #fff;
+}
+.container{
+    background-color: #f7f7f7;
+    width: 80%;
+    margin: auto;
+    position: relative;
+}
+.topnav{
+    background-color: #333;
+    width: 100%;
+    height: 30px;
+    padding: 8px 12px;
+}
+.topnav img{
+    margin: auto;
+    background-color: #f7f7f7;
+    border-radius: 30px;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    position: absolute;
+}
+.topnav ul{
+    text-align: center;
+}
+.topnav ul li{
+    display: inline-block;
+    margin-top: 2px;
+    margin-left: 50px;
+}
+.topnav ul li a{
+    text-align: center;
+    text-decoration: none;
+    padding: 6px 12px;
+    color: #f7f7f7;
+    overflow: auto;
+}
+.topnav ul li a:hover{
+    background-color: cornsilk;
+    color: #333;
+    border-radius: 3px;
+    height: auto;
+}
+.judul{
+    margin-bottom: 36px;
+    text-align: center;
+    font-size: 72px;
+    font-weight: 700;
+}
+.hero{ 
+    text-align: center;
+}
+.hero img{
+    width: 300px;
+    height: 200px;
+    border: 5px solid orange;
+}
+.subjudul{
+    margin-top: 36px;
+    margin-bottom: 24px;
+    text-align: center;
+    font-size: 24px;
+    font-weight: 700;
+}
+.hero2{
+    text-align: center;
+}
+.hero2 img{
+   width: 150px;
+   height: 150px;
+   border-radius: 15px;
+   border: 7px solid orange;
+   margin: 4px;
+   box-sizing: border-box;
+}
+.hero2 a{
+    text-decoration: none;
+    color: #333;
+}
+.hero2 a:hover{
+    color: palevioletred;
+}
+.text{
+    text-align: center;
+}
+.menu{
+    margin: 30px 20px;
+}
+.menu h3{
+    margin-bottom: 15px;
+    text-align: center;
+}
+.menu ul {
+    text-align: center;
+}
+.menu ul li{
+    list-style-type: none;
+}
+.menu ul li a{
+    text-decoration: none;
+    color: black;
+    font-weight: 600;
+}
+.menu ul li a:hover{
+    color: lightcoral;
+}
+.social {
+    text-align: center;
+}
+.social h5{
+    margin: 10px;
+}
+.social img{
+    margin: 3px 10px;
+}
+.footer{
+    margin: 10px 5px;
+    text-align: center;
+    font-size: 14px;
+}

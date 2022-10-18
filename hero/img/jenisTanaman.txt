@@ -1,0 +1,37 @@
+Jenis Tanaman Hias Daun
+Aglonema
+Caladium
+Monstrea
+Suplir
+Lidah Mertua
+Tanduk Rusa
+Philodendron
+
+
+aglonemaSuksom:60000
+aglonemaRotundumAceh:30000
+aglonemaRoDudAnjamani:65000
+aglonemaVenus:65000
+aglonemaSuperWhite:90000
+aglonemaRedChocin:80000
+aglonemaRedMajesty:75000
+aglonemaAyunindi:35000
+aglonemaRedAnjamaniDewasa:80000
+aglonemaSnowWhiteRemaja:27500
+aglonemaKhocin:60000
+aglonemaBigroy:60000
+
+
+Caladium ace of heart
+Caladium pink love
+Caladium fiesta
+Caladium green spider
+Caladium candidum
+
+Monstera Deliciosa
+Monstera Adansonii
+Monstera Variegata
+Monstera Dubia
+Monstera obliqua
+Monstera Thai Constellation
+Monstera Borsigiana

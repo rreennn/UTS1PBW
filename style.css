@@ -1,0 +1,201 @@
+*, html, body{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    background-color: #fff;
+}
+.container{
+    background-color: rgb(222, 232, 207);
+    width: 80%;
+    margin: auto;
+    position: relative;
+    overflow: auto;
+}
+.topnav{
+    background-color: #333;
+    width: auto;
+    height: 30px;
+    padding: 8px 12px;
+}
+.topnav img{
+    margin: auto;
+    padding: auto;
+    background-color: rgb(222, 232, 207);
+    border-radius: 30px;
+    position: absolute;
+}
+.topnav input[type=text]{
+    border-radius: 5px;
+    padding: 4px;
+}
+.topnav ul{
+    text-align: center;
+}
+.topnav ul li{
+    display: inline-block;
+    margin-top: 2px;
+    margin-left: 50px;
+}
+.topnav ul li a{
+    text-align: center;
+    text-decoration: none;
+    padding: 6px 12px;
+    color: #f7f7f7;
+    overflow: auto;
+}
+.topnav ul li a:hover{
+    background-color: cornsilk;
+    color: #333;
+    border-radius: 3px;
+    height: auto;
+}
+.judul{
+    margin-bottom: 36px;
+    text-align: center;
+    font-size: 72px;
+    font-weight: 700;
+}
+.hero{ 
+    text-align: center;
+}
+.hero img{
+    width: 300px;
+    height: 200px;
+    border-radius: 5px;
+    border: 5px solid green;
+}
+.subjudul{
+    margin-top: 36px;
+    margin-bottom: 24px;
+    text-align: center;
+    font-size: 24px;
+    font-weight: 700;
+}
+.hero2{
+    text-align: center;
+}
+.hero2 table{
+    margin: auto;
+}
+.hero2 span{
+    text-align: center;
+}
+.hero2 img{
+   width: 150px;
+   height: 150px;
+   border-radius: 15px;
+   border: 4px solid green;
+   margin: 4px;
+   box-sizing: border-box;
+}
+.hero2 a{
+    text-decoration: none;
+    color: #333;
+}
+.hero2 a:hover{
+    font-size: larger;
+    color: palevioletred;
+}
+.menu{
+    margin: 30px 20px;
+}
+.menu h3{
+    margin-bottom: 15px;
+    text-align: center;
+}
+.menu ul {
+    text-align: center;
+}
+.menu ul li{
+    list-style-type: none;
+}
+.menu ul li a{
+    text-decoration: none;
+    color: black;
+    font-weight: 600;
+}
+.menu ul li a:hover{
+    color: lightcoral;
+}
+.text{
+    text-align: center;
+}
+.social {
+    text-align: center;
+}
+.social h5{
+    margin: 10px;
+}
+.social img{
+    margin: 3px 10px;
+}
+.social a{
+    text-decoration: none;
+}
+.social a img:hover{
+    width: 35px;
+    height: 35px;
+}
+.catalog{
+    margin-top: 50px;
+    margin-left: 60px;
+    text-align: center;
+}
+.catalog h3{
+    text-align: left;
+    margin-bottom: 10px;
+}
+.catalog ul li{
+    text-align: left;
+    text-decoration: none;
+    list-style-type: none;
+    margin-bottom: 200px;
+}
+.catalog ul li a{
+    background-color: antiquewhite;
+    padding: 4px;
+    border: 1px solid green;
+    border-radius: 5px;
+    text-decoration: none;
+    color: #333;
+}
+.catalog ul li a:hover{
+    color: rgb(136, 200, 136);
+    font-size: larger;
+}
+.product{
+    margin-right: 40px;
+    margin-top: 10px;
+    border: 2px solid #f7f7f7;
+    float: right;
+    width: 200px;
+    height: 200px;
+}
+.product img{
+    text-align: center;
+    padding: 5px;
+    width: 100px;
+    height: 100px;
+}
+.product img:hover{
+    height: 110px;
+    width: 110px;
+}
+.product desc{
+    box-sizing: border-box;
+    text-align: center;
+}
+.product span a{
+    text-decoration: none;
+}
+.product span a:hover{
+    color: palevioletred;
+    font-size: 18px;
+}
+.footer{
+    margin: 10px 5px;
+    text-align: center;
+    font-size: 14px;
+}
