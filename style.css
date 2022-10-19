@@ -50,6 +50,7 @@ body{
     color: #333;
     border-radius: 3px;
     height: auto;
+    transition: 0.3s ease-in;
 }
 .judul{
     margin-bottom: 36px;
@@ -81,6 +82,7 @@ body{
 }
 .hero2 span{
     text-align: center;
+    padding: 10px;
 }
 .hero2 img{
    width: 150px;
@@ -97,6 +99,7 @@ body{
 .hero2 a:hover{
     font-size: larger;
     color: palevioletred;
+    transition: 0.2s linear;
 }
 .menu{
     margin: 30px 20px;
@@ -118,6 +121,7 @@ body{
 }
 .menu ul li a:hover{
     color: lightcoral;
+    transition: 0.3s ease-in-out;
 }
 .text{
     text-align: center;
@@ -130,13 +134,16 @@ body{
 }
 .social img{
     margin: 3px 10px;
+    filter: grayscale(100%);
 }
 .social a{
     text-decoration: none;
 }
 .social a img:hover{
-    width: 35px;
     height: 35px;
+    width: 35px;
+    filter: grayscale(0%);
+    transition: 0.3s ease-in-out;
 }
 .catalog{
     margin-top: 50px;
@@ -164,6 +171,7 @@ body{
 .catalog ul li a:hover{
     color: rgb(136, 200, 136);
     font-size: larger;
+    transition: 0.3s ease;
 }
 .product{
     margin-right: 40px;
@@ -182,6 +190,7 @@ body{
 .product img:hover{
     height: 110px;
     width: 110px;
+    transition: 0.3s ease-in-out;
 }
 .product desc{
     box-sizing: border-box;
@@ -193,6 +202,7 @@ body{
 .product span a:hover{
     color: palevioletred;
     font-size: 18px;
+    transition: 0.3s ease;
 }
 .footer{
     margin: 10px 5px;
